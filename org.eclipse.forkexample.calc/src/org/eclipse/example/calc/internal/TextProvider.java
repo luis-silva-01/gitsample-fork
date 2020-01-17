@@ -17,7 +17,7 @@ public interface TextProvider {
 	 * @param text the text to display on the {@link Calculator}
 	 */	
 	
-	/* aölfjdsalfjaöldsjfa +7
+	/* aölfjdsalfjaöldsjfa */
 	public void setDisplayText(String text);
 
 	/**
