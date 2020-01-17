@@ -36,6 +36,8 @@ public class Calculator {
 	}
 
 	private void setupDefaultOperations() {
+		// Hier könnte Ihre Werbung stehen
+	
 		new Equals();
 		new Minus();
 		new Plus();
