@@ -31,18 +31,22 @@ public class Calculator {
 	public static String NAME = "Simple Calculator";
 
 	public Calculator(TextProvider textProvider) {
+	    // new and very important comment
 		this.textProvider = textProvider;
 		setupDefaultOperations();
 	}
 
 	private void setupDefaultOperations() {
 		// more operations to come
+		// Hier könnte Ihre Werbung stehen
+	    // the second important comment
 		new Equals();
 		new Minus();
 		new Plus();
 		new Square();
 		// TODO: add some more
 		// commit and push
+		//TODO more operations here, divide, multiply, power...
 	}
 
 	private void calculate(String cmdName) {
